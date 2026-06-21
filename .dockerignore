@@ -1,0 +1,16 @@
+# Ignorovat lokální buildy a závislosti
+target/
+node_modules/
+
+# Ignorovat Git
+.git/
+.gitignore
+
+# Ignorovat lokální Docker konfigurace
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Ignorovat případné lokální logy nebo systémové soubory
+.DS_Store
+*.log

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12mm"
+   height="12mm"
+   viewBox="-2 0 12 12"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <path
+       style="fill:#ff6b35;fill-opacity:1;stroke:none;stroke-width:2;stroke-opacity:0.428884;paint-order:markers stroke fill"
+       d="M 7,0.5 6,2 V 4 H 8 V 2 Z"
+       id="path1" />
+    <path
+       id="path2"
+       style="fill:none;stroke:#00c2cb;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 7.5,6 C 7.5,7.4156179 6.6472524,8.6918449 5.339392,9.2335784 4.0315316,9.7753119 2.5261192,9.4758667 1.5251262,8.4748737 0.52413322,7.4738807 0.22468811,5.9684683 0.76642166,4.6606079 1.3081552,3.3527476 2.5843822,2.5 4,2.5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#00c2cb;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 8,5.5 H 6"
+       id="path3" />
+    <circle
+       style="fill:#ff6b35;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path4"
+       cx="4"
+       cy="6"
+       r="1" />
+  </g>
+</svg>

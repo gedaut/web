@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "title_1": "BE THE LAST ONE STANDING. ",
+    "title_2": "RULE THE POOL.",
+    "welcome": "WELCOME TO GEDAUT.",
+    "subtitle": "Tournament management & Live tracking"
+  },
+  "info": {
+    "title": "WHAT'S IT ABOUT?",
+    "game_goal_title": "1. Game Goal:",
+    "game_goal_desc": "Last one in the pool.",
+    "equipment_title": "2. Equipment:",
+    "equipment_desc": "Circular pool & special ball.",
+    "fouls_title": "3. Fouls:",
+    "fouls_desc": "Fast action, strict rules."
+  }
+}

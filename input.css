@@ -1,1 +1,101 @@
 @import "tailwindcss";
+
+@theme {
+  /* ==========================================
+   * BRAND
+   * ========================================== */
+  --color-primary: #00c2cb;
+  --color-primary-hover: #00d6e0;
+  --color-primary-soft: #e0fcff;
+
+  --color-accent: #ff6b35;
+  --color-accent-hover: #ff7b4a;
+  --color-accent-soft: #fff1eb;
+
+  /* ==========================================
+   * STATES
+   * ========================================== */
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+}
+
+/* ==========================================
+ * LIGHT THEME
+ * ========================================== */
+:root {
+  /* Backgrounds */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f1f5f9;
+
+  /* Text */
+  --color-text: #0f172a;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748b;
+
+  /* Borders */
+  --color-border: #e2e8f0;
+  --color-border-secondary: #cbd5e1;
+
+  /* Layout */
+  --color-navbar: #ffffff;
+  --color-card: #ffffff;
+  --color-card-hover: #f8fafc;
+
+  /* Headings */
+  --color-heading: #0f172a;
+}
+
+/* ==========================================
+ * DARK THEME
+ * ========================================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Backgrounds */
+    --color-bg: #0b1329;
+    --color-surface: #111a33;
+    --color-surface-secondary: #17203f;
+
+    /* Text */
+    --color-text: #f8fafc;
+    --color-text-secondary: #cbd5e1;
+    --color-text-muted: #94a3b8;
+
+    /* Borders */
+    --color-border: #24304f;
+    --color-border-secondary: #334155;
+
+    /* Layout */
+    --color-navbar: #080d1f;
+    --color-card: #111a33;
+    --color-card-hover: #17203f;
+
+    /* Headings */
+    --color-heading: #ffffff;
+  }
+}
+
+/* ==========================================
+ * GLOBALS
+ * ========================================== */
+html {
+  color-scheme: light dark;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  background-color: var(--color-bg);
+  color: var(--color-text);
+
+  font-family:
+    Inter,
+    system-ui,
+    sans-serif;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}

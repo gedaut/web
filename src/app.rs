@@ -5,6 +5,14 @@ use leptos_router::{
     StaticSegment,
 };
 
+use crate::i18n::I18nContextProvider;
+
+// import sites
+use crate::pages::home::Home;
+use crate::pages::rules::Rules;
+
+use crate::components::layout::navbar::Navbar;
+
 pub fn shell(options: LeptosOptions) -> impl IntoView {
     view! {
         <!DOCTYPE html>
@@ -14,6 +22,7 @@ pub fn shell(options: LeptosOptions) -> impl IntoView {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <AutoReload options=options.clone() />
                 <HydrationScripts options/>
+                <link rel="shortcut icon" type="image/svg" href="/favicon.svg"/>
                 <MetaTags/>
             </head>
             <body>
@@ -34,28 +43,21 @@ pub fn App() -> impl IntoView {
         <Stylesheet id="leptos" href="/pkg/web.css"/>
 
         // sets the document title
-        <Title text="Welcome to Leptos"/>
+        <Title text="Gedaut"/>
 
         // content for this welcome page
-        <Router>
-            <main>
-                <Routes fallback=|| "Page not found.".into_view()>
-                    <Route path=StaticSegment("") view=HomePage/>
-                </Routes>
-            </main>
-        </Router>
-    }
-}
-
-/// Renders the home page of your application.
-#[component]
-fn HomePage() -> impl IntoView {
-    // Creates a reactive value to update the button
-    let count = RwSignal::new(0);
-    let on_click = move |_| *count.write() += 1;
-
-    view! {
-        <h1>"Welcome to Leptos!"</h1>
-        <button on:click=on_click>"Click Me: " {count}</button>
+        <I18nContextProvider>
+            <Router>
+                <header>
+                    <Navbar />
+                </header>
+                <main>
+                    <Routes fallback=|| "Page not found.".into_view()>
+                        <Route path=StaticSegment("") view=Home/>
+                        <Route path=StaticSegment("rules") view=Rules/>
+                    </Routes>
+                </main>
+            </Router>
+        </I18nContextProvider>
     }
 }

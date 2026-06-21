@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "title_1": "ZŮSTAŇ JAKO POSLEDNÍ. ",
+        "title_2": "VLÁDNI BAZÉNU.",
+        "welcome": "VÍTEJTE U GEDAUTu.",
+        "subtitle": "Turnajový management & Live sledování"
+    },
+    "info": {
+        "title": "O CO JDE?",
+        "game_goal_title": "1. Cíl hry:",
+        "game_goal_desc": "Poslední v bazéně.",
+        "equipment_title": "2. Vybavení:",
+        "equipment_desc": "Kruhový bazén & speciální míč.",
+        "fouls_title": "3. Fauly:",
+        "fouls_desc": "Rychlá akce, přísná pravidla."
+    }
+}
