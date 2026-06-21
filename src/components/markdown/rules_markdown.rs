@@ -17,15 +17,12 @@ pub fn RulesMarkdown(#[prop(into)] html: String) -> impl IntoView {
                 [&_p]:leading-relaxed
                 [&_p]:mb-4
 
+                [&_h1]:text-[var(--color-accent)]
                 [&_h1]:text-4xl
                 [&_h1]:font-extrabold
                 [&_h1]:text-center
                 [&_h1]:mb-10
-                [&_h1]:bg-gradient-to-r
-                [&_h1]:from-[var(--color-primary)]
-                [&_h1]:to-[var(--color-accent)]
-                [&_h1]:bg-clip-text
-                [&_h1]:text-transparent
+             
 
                 [&_h2]:text-[var(--color-primary)]
                 [&_h2]:text-2xl
