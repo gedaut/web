@@ -4,10 +4,10 @@ services:
       context: .
       dockerfile: Dockerfile
     image: gedaut-web:latest
-    container_name: gedaut_frontend
+    container_name: gedaut_web
     ports:
-      - "8080:8080"
+      - "[::]:3000:3000"
     environment:
       - RUST_LOG=info
-      - LEPTOS_SITE_ADDR=0.0.0.0:8080
+      - LEPTOS_SITE_ADDR=0.0.0.0:3000
     restart: unless-stopped
