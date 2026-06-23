@@ -1,0 +1,11 @@
+{
+  "layout": {
+    "footer": {
+      "scroll_top": "NAHORU",
+      "privacy_policy": "PRIVACY POLICY",
+      "terms_of_service": "TERMS OF SERVICE",
+      "cookies": "MANAGE COOKIE PREFERENCES",
+      "rights_reserved": "All rights reserved."
+    }
+  }
+}

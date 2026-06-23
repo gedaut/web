@@ -3,5 +3,11 @@
     "home": "Domů",
     "rules": "Pravidla",
     "connect": "Připojit se"
+  },
+  "footer": {
+    "privacy_policy": "Ochrana osobních údajů",
+    "terms_of_service": "Podmínky užití",
+    "cookies": "Spravovat předvolby cookies",
+    "rights_reserved": "Všechna práva vyhrazena."
   }
 }

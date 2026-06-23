@@ -12,6 +12,7 @@ use crate::pages::home::Home;
 use crate::pages::rules::Rules;
 
 use crate::components::layout::navbar::Navbar;
+use crate::components::layout::footer::Footer;
 
 pub fn shell(options: LeptosOptions) -> impl IntoView {
     view! {
@@ -57,6 +58,9 @@ pub fn App() -> impl IntoView {
                         <Route path=StaticSegment("rules") view=Rules/>
                     </Routes>
                 </main>
+                <footer>
+                    <Footer />
+                </footer>
             </Router>
         </I18nContextProvider>
     }

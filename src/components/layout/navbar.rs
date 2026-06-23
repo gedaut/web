@@ -2,6 +2,7 @@ use leptos::prelude::*;
 use leptos_router::components::A;
 
 use crate::components::layout::lang_toggler::LangToggle;
+use crate::components::layout::logo::Logo;
 use crate::components::ui::button::{Button, ButtonKind, Color};
 use crate::i18n::*;
 
@@ -25,15 +26,7 @@ pub fn Navbar() -> impl IntoView {
             <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
 
                 // LOGO
-                <A href="/" attr:class="flex items-center gap-2">
-                    <img
-                        src="/favicon.svg"
-                        class="h-9 w-9 transition-transform hover:scale-105 duration-200"
-                    />
-                    <span class="font-black tracking-wide text-[var(--color-primary)]">
-                        GEDAUT
-                    </span>
-                </A>
+                <Logo />
 
                 // ================= DESKTOP =================
                 <div class="hidden md:flex items-center gap-2">
