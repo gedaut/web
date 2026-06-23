@@ -1,1 +1,1 @@
-pub mod rules_markdown;
+pub mod cg_markdown;

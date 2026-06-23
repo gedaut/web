@@ -1,4 +1,5 @@
 use leptos::prelude::*;
+use leptos_router::components::A;
 use crate::components::layout::logo::Logo;
 use crate::i18n::*;
 
@@ -31,17 +32,17 @@ pub fn Footer() -> impl IntoView {
                 <div class="pt-6 border-t border-[var(--color-border)] flex flex-col md:flex-row items-center justify-between gap-4 text-xs opacity-60">
                     
                     // Legal links
-                    <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
-                        <a href="#" class="hover:underline">
-                            {t!(i18n, layout.footer.privacy_policy)}
-                        </a>
-                        <a href="#" class="hover:underline">
-                            {t!(i18n, layout.footer.terms_of_service)}
-                        </a>
-                        <a href="#" class="hover:underline">
-                            {t!(i18n, layout.footer.cookies)}
-                        </a>
-                    </div>
+                <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                    <A href="/privacy-policy" attr:class="hover:underline">
+                        {t!(i18n, layout.footer.privacy_policy)}
+                    </A>
+                    <A href="/terms" attr:class="hover:underline">
+                        {t!(i18n, layout.footer.terms_of_service)}
+                    </A>
+                    <A href="/cookies" attr:class="hover:underline">
+                        {t!(i18n, layout.footer.cookies)}
+                    </A>
+                </div>
 
                     // Copyright
                     <div class="text-center md:text-right">

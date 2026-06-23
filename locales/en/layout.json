@@ -5,9 +5,9 @@
     "connect": "Connect"
   },
   "footer": {
-    "privacy_policy": "PRIVACY POLICY",
-    "terms_of_service": "TERMS OF SERVICE",
-    "cookies": "MANAGE COOKIE PREFERENCES",
+    "privacy_policy": "Privacy policy",
+    "terms_of_service": "Terms of service",
+    "cookies": "Manage cookie preferences",
     "rights_reserved": "All rights reserved."
   }
 }

@@ -10,7 +10,11 @@ use crate::i18n::I18nContextProvider;
 // import sites
 use crate::pages::home::Home;
 use crate::pages::rules::Rules;
+use crate::pages::legal::cookies::Cookies;
+use crate::pages::legal::privacy::Privacy;
+use crate::pages::legal::terms::Terms;
 
+// import layouts
 use crate::components::layout::navbar::Navbar;
 use crate::components::layout::footer::Footer;
 
@@ -56,6 +60,10 @@ pub fn App() -> impl IntoView {
                     <Routes fallback=|| "Page not found.".into_view()>
                         <Route path=StaticSegment("") view=Home/>
                         <Route path=StaticSegment("rules") view=Rules/>
+
+                        <Route path=StaticSegment("privacy-policy") view=Privacy/>
+                        <Route path=StaticSegment("terms") view=Terms/>
+                        <Route path=StaticSegment("cookies") view=Cookies/>
                     </Routes>
                 </main>
                 <footer>
