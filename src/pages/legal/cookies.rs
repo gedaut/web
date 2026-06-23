@@ -2,7 +2,7 @@ use leptos::prelude::*;
 
 use crate::i18n::*;
 use crate::components::layout::page_container::PageContainer;
-use crate::components::markdown::cg_markdown::CGMarkdown;
+use crate::components::markdown::co_markdown::COMarkdown;
 
 #[component]
 pub fn Cookies() -> impl IntoView {
@@ -19,7 +19,7 @@ pub fn Cookies() -> impl IntoView {
         <PageContainer>
             {move || {
                 view! {
-                    <CGMarkdown markdown=markdown() />
+                    <COMarkdown markdown=markdown() />
                 }
             }}
         </PageContainer>

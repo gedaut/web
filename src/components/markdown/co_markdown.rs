@@ -2,7 +2,7 @@ use leptos::prelude::*;
 use pulldown_cmark::{Parser, Options, html};
 
 #[component]
-pub fn CGMarkdown(#[prop(into)] markdown: &'static str) -> impl IntoView {
+pub fn COMarkdown(#[prop(into)] markdown: &'static str) -> impl IntoView {
     let html_output = Memo::new(move |_| {
         let mut options = Options::empty();
         options.insert(Options::ENABLE_TABLES);
