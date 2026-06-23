@@ -1,5 +1,5 @@
 # If you’re using stable, use this instead
-FROM rust:1.92.0-trixie as builder
+FROM rust:1.92.0-trixie AS builder
 # See current official Rust tags here: https://hub.docker.com/_/rust
 
 # Install cargo-binstall, which makes it easier to install other
@@ -26,7 +26,7 @@ COPY . .
 # Build the app
 RUN cargo leptos build --release -vv
 
-FROM debian:trixie-slim as runtime
+FROM debian:trixie-slim AS runtime
 WORKDIR /app
 RUN apt-get update -y \
   && apt-get install -y --no-install-recommends openssl ca-certificates \
