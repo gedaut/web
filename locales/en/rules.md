@@ -89,7 +89,7 @@ The basic game unit. *Game* states, actions, and fouls are evaluated exclusively
 
 The default method of putting the ball into *play*.
 
-**Condition:** The referee or a designated person puts the ball into *play* by throwing it from a spot outside the pool so that the ball touches the water surface inside the pool. The *game* begins at the moment of this touch. The designated person may be someone who was eliminated in the previous game.
+* **Condition:** The referee or a designated person puts the ball into *play* by throwing it from a spot outside the pool so that the ball touches the water surface inside the pool. The *game* begins at the moment of this touch. The designated person may be someone who was eliminated in the previous game.
 
 ## Opening Throw (Serve)
 
@@ -131,10 +131,10 @@ The ball touches *player* A, then *player* B excluding the hands (from the wrist
 
 ## Penalties
 
-**Immediate consequence:** Every fouled *player* gains the immunity state.
-**End of *game*:** The *game* ends when the ball touches the water surface. If all fouled *players* fouled at the same time, the *game* continues without change.
-**Consequence:** During the opening throw of the next *game* in the given *round*, the fouled *players* have immunity. The first non-eliminated fouling *player* becomes the main server, and the other fouling players become servers.
-**Higher penalty:** An intentional foul results in the elimination of the fouling *player* from the given *round*.
+* **Immediate consequence:** Every fouled *player* gains the immunity state.
+* **End of *game*:** The *game* ends when the ball touches the water surface. If all fouled *players* fouled at the same time, the *game* continues without change.
+* **Consequence:** During the opening throw of the next *game* in the given *round*, the fouled *players* have immunity. The first non-eliminated fouling *player* becomes the main server, and the other fouling players become servers.
+* **Higher penalty:** An intentional foul results in the elimination of the fouling *player* from the given *round*.
 
 ---
 

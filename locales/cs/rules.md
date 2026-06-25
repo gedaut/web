@@ -75,7 +75,7 @@ Základní herní jednotka. Pouze během ní se vyhodnocují *herní* stavy, akc
 ## Vhazování
 Výchozí uvedení míče do *hry*.
 
-**Podmínka:** Rozhodčí nebo určená osoba uvede míč do *hry* odhozem z místa mimo bazén tak, aby se míč dotkl vodní hladiny uvnitř bazénu. *Hra* začíná okamžikem tohoto dotyku. Určená osoba může být ta, která byla vyřazena v předchozí hře.
+* **Podmínka:** Rozhodčí nebo určená osoba uvede míč do *hry* odhozem z místa mimo bazén tak, aby se míč dotkl vodní hladiny uvnitř bazénu. *Hra* začíná okamžikem tohoto dotyku. Určená osoba může být ta, která byla vyřazena v předchozí hře.
 
 ## Rozehrávka
 Zahájení *hry* odhozem míče.
@@ -111,10 +111,10 @@ Míč se dotkne *hráče* A, následně *hráče* B s výjimkou rukou (od zápě
 * **Stříkání vody:** *Hráč* úmyslně stříká vodu do očí soupeře. Faulovaný *hráč* je omezen tímto faulem.
 
 ## Tresty
-**Okamžitý důsledek:** Každý faulovaný *hráč* získává stav imunita.
-**Konec *hry*:** *Hra* končí dotykem míče s vodní hladinou. Pokud všichni faulovaní *hráči* zároveň faulovali, *hra* pokračuje beze změny.
-**Následek:** Při rozehrávce následující *hry* daného *kola* mají faulovaní *hráči* imunitu. První nevyřazený faulující *hráč* se stává hlavním rozehrávajícím, ostatní faulující se stávají rozehrávajícími.
-**Vyšší:** Úmyslný faul znamená vyřazení faulujícího *hráče* z daného *kola*.
+* **Okamžitý důsledek:** Každý faulovaný *hráč* získává stav imunita.
+* **Konec *hry*:** *Hra* končí dotykem míče s vodní hladinou. Pokud všichni faulovaní *hráči* zároveň faulovali, *hra* pokračuje beze změny.
+* **Následek:** Při rozehrávce následující *hry* daného *kola* mají faulovaní *hráči* imunitu. První nevyřazený faulující *hráč* se stává hlavním rozehrávajícím, ostatní faulující se stávají rozehrávajícími.
+* **Vyšší:** Úmyslný faul znamená vyřazení faulujícího *hráče* z daného *kola*.
 
 ---
 
